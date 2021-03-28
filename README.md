@@ -10,3 +10,8 @@ The following is an excerpt from the [Oak Ridge Institue for Science and Educati
 >Choose an activity that you can do for 21 days to better your mental health. Examples of activities are the following: journaling, exercising, sleeping eight hours, etc. Perform background research to learn more about this activity; how to best integrate it into your life; what types of problems it may help with; any other relevant information. Collect data on your personal experience and mental wellbeing over 21 days. Develop an infographic or podcast to communicate your research and results. Depending on your data, promote or discourage the activity to other students. If discouraged, provide a researched alternative activity and reasoning. The submission should include research on how the activity betters one’s mental health, as well as personal data collected during your habit creating process. You must provide supporting evidence, using a supporting document for citations and additional information.
 
 ## Abstract
+
+The COVID-19 pandemic has exacerbated the mental health crisis among college students in the United States. As college students battle with record high levels of depression, anxiety, and lonliness, students are increasingly turning to social media to help cope. Increased social media use is determiential to college students' mental health and wellbeing. Over the course of 21 days, social media use and wellbeing were recorded. Decreased social media use was significantly correlated with improved psychological wellbeing.
+
+## Podcast Citations 
+
