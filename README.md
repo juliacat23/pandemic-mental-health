@@ -13,5 +13,7 @@ The following is an excerpt from the [Oak Ridge Institue for Science and Educati
 
 The COVID-19 pandemic has exacerbated the mental health crisis among college students in the United States. As college students battle with record high levels of depression, anxiety, and lonliness, students are increasingly turning to social media to help cope. Increased social media use is determiential to college students' mental health and wellbeing. Over the course of 21 days, social media use and wellbeing were recorded. Decreased social media use was significantly correlated with improved psychological wellbeing.
 
+As the mental health crisis continues to ravish college students across the nation, it is imperative for students to practice healthy coping skills. The development of a podcast targeted at undergraduate students will increase students' awareness of the benefits of implementing healthy coping mechanisms. 
+
 ## Podcast Citations 
 
