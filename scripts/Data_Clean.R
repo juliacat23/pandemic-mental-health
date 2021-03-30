@@ -1,6 +1,13 @@
+# load all required libraries
 library(tidyverse)
 library(readxl)
 library(lubridate)
+library(papaja)
+library(Hmisc)
+library(psych)
+library(ggcorrplot)
+library(gt)
+library(rstatix)
 
 #import data 
 stress.data <- read_excel("data/PSS.xlsx")
