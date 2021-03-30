@@ -1,6 +1,4 @@
 source("Data_Clean.R")
-library(psych)
-library(gt)
 
 #descriptive statistics
 social.daily.summary <- describe(social_daily) 
