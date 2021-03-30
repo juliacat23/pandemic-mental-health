@@ -1,5 +1,3 @@
-library(papaja)
-library(Hmisc)
 source("Data_Clean.R")
 
 # daily score boxplot
