@@ -1,7 +1,5 @@
 source("Data_Clean.R")
-library(ggpubr)
-library(cowplot)
-library(papaja)
+
 ## Daily Mood Assessments --------------
 social.time.2 <- gather(social.screen, category, screen_time, social_overall:tiktok, factor_key=TRUE)
 daily.long <- gather(daily, symptom, value, daily.anxiety:daily_score, factor_key = TRUE)
