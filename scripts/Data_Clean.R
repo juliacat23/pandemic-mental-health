@@ -1,7 +1,5 @@
 library(tidyverse)
-library(readr)
 library(readxl)
-library(XLConnect)
 library(lubridate)
 
 #import data 
@@ -11,7 +9,7 @@ depression.data <- read_excel("data/CES-R.xlsx")
 daily.data <- read_excel("data/daily.xlsx")
 social.screen <- read_excel("data/screen-time.xlsx")
 
-#data cleaning 
+#data cleaning
 
 ## Perceived Stress Scale
 colnames(stress.data)
@@ -33,7 +31,7 @@ anxiety <- anxiety.data %>%
     score = score)
 anxiety$score <- as.numeric(as.character(anxiety$score))
 
-## Depression (CES-R)
+## Depression (CESD-R)
 colnames(depression.data) 
 names(depression.data)[38] <- "score"
 
@@ -45,10 +43,10 @@ depression$score <- as.numeric(as.character(depression$score))
 
 # compile composite score 
 
-composite <- data.frame("date" = stress$date, 
-                        "stress" = stress$score, 
-                        "anxiety" = anxiety$score,
-                        "depression" = depression$score)
+composite <- data.frame("date" = stress$date, # keep date
+                        "stress" = stress$score, #PSS score
+                        "anxiety" = anxiety$score, #GAD-7 score
+                        "depression" = depression$score) # CESD-R score
 
 composite$total_score <- composite$stress + composite$anxiety + composite$depression 
 composite$date <- as.character(composite$date)
